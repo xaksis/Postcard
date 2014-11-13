@@ -27,6 +27,7 @@ class ViewController: UIViewController {
     }
 
     @IBAction func sendBtnPressed(sender: UIButton) {
+        //Code will evaluate when send btn is pressed
         message_lbl.text = message_entry.text
         message_lbl.hidden = false
         message_lbl.textColor = UIColor.purpleColor()
